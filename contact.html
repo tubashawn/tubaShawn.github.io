@@ -5,19 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/images.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <h2>Contact</h2>
-    <form>
-        Name<br>
-        <input type="text" name="name"><br>
-        E-mail<br>
-        <input type="text" name="email"><br>
-        Message<br>
-        <textarea name="message" rows="6" col="40"></textarea><br>
-        <input type="submit">
-    </form>
+    <div class="content">
+        <header>
+            <h1>Shawn Mangum</h1>
+            <div class="tabs">
+                <h4 class="bodytext links" id="about"><a class="underline" href="index.html">About</a></h4>
+                <h4 class="bodytext links" id="portfolio"><a class="underline" href="portfolio.html">Portfolio</a></h4>
+                <h4 class="bodytext links" id="contact"><a class="underline" href="contact.html">Contact</a></h4>
+            </div>
+        </header>
+        
+        <section>
+            <div class="sectionbody personal">
+                <h2>Contact</h2>
+                <form>
+                    Name<br>
+                        <input type="text" name="name"><br>
+                    E-mail<br>
+                        <input type="text" name="email"><br>
+                    Message<br>
+                        <textarea name="message" rows="6" col="40"></textarea><br>
+                        <input type="submit">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div id="copyright">Copyright &copy; 2018</div>
+    </footer>
 </body>
 </html>
