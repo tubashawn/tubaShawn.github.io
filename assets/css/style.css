@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +46,7 @@ h2 {
     font-size: 28px;
     height: 40px;
     font-weight: bold;
-    
+    border-bottom: 3px #bbbbbb solid;
 }
 
 .tabs {
@@ -64,6 +64,14 @@ h2 {
     padding: 20px;
 }
 
+a:hover {
+    background-color: #4aaaa5;
+}
+
+a:visited {
+    color: #222222;
+}
+
 a {
     text-decoration: none;
     color: #bbbbbb;
@@ -78,7 +86,7 @@ a {
 }
 
 #about {
-    float: right;
+    float: right;    
 }
 
 .bodytext {
@@ -94,6 +102,7 @@ p {
     padding: 5px;
 }
 
+
 .image {
     height: 150px;
     width: 170px;
@@ -107,7 +116,7 @@ section {
     border-color: #dddddd;
     border-width: 2px;
     border-style: solid;
-    height: 500px;
+    height: 600px;
     width: 80%;
     position: relative;
     left: 10%;
@@ -125,6 +134,51 @@ section {
 .sectionbody {
     position: relative;
     top: 40px;
+}
+
+
+.words {
+    position: relative;
+    top: -60px;
+    left: -5%;
+    background-color: #4aaaa5;
+    width: 110%;
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+    color: #cccccc;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pic { 
+    margin: 20 75 0 0;
+}
+.hang {
+    float: left;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.rpg {
+    float: left;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.trivia {
+    float: left;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.rutgers {
+    float: left;
+    margin-right: 75px;
+}
+
+.rock {
+    float: left;
+    margin-right: 75px;
 }
 
 footer {
